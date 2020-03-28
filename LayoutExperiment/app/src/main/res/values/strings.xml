@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LayoutExperiment</string>
+    <string name="RED">RED</string>
+    <string name="ORANGE">ORANGE</string>
+    <string name="YELLOW">YELLOW</string>
+    <string name="GREEN">GREEN</string>
+    <string name="BULE">BULE</string>
+    <string name="INDIGO">INDIGO</string>
+    <string name="VIOLET">VIOLET</string>
+
+
+</resources>

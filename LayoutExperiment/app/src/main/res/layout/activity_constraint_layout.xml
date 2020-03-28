@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+
+    <TextView
+        android:id="@+id/RED"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="@string/RED"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#f00"
+        android:textColor="#000"
+        android:padding="25dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/ORANGE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffa500"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="@string/ORANGE"
+        android:textColor="#000"
+        app:layout_constraintEnd_toEndOf="@+id/BULE"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/BULE"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/YELLOW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="@string/YELLOW"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#ffff00"
+        android:textColor="#000"
+        android:padding="25dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/GREEN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginLeft="156dp"
+        android:background="#0f0"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="@string/GREEN"
+        android:textColor="#000"
+        app:layout_constraintBaseline_toBaselineOf="@+id/BULE"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/BULE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="120dp"
+        android:background="#00f"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="@string/BULE"
+        android:textColor="#fff"
+        app:layout_constraintStart_toEndOf="@+id/GREEN"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/INDIGO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="#4b0082"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="@string/INDIGO"
+        android:textColor="#fff"
+        app:layout_constraintBaseline_toBaselineOf="@+id/BULE"
+        app:layout_constraintStart_toEndOf="@+id/BULE" />
+
+    <TextView
+        android:id="@+id/VIOLET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#ee82ee"
+        android:padding="25dp"
+        android:text="@string/VIOLET"
+        android:textColor="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
