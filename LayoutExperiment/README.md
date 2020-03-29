@@ -8,9 +8,6 @@
 ![](https://github.com/SuXianPeng/CommonExperimentReport/blob/master/images/LinearLayout.png)<br>
 此布局中文本框显示边框并为白色使用到的是设置文本框背景实现的代码为：<br>
 
-
- 
-
 ```
   
   //在drawable中创建一个text.xml文件定义<br>
@@ -20,3 +17,6 @@
 //在该布局文件中的文本框定义<br>
 android:background="@drawable/text"<br>
 ```
+* 下图为完成约束布局后，在genymotion模拟下运行的结果图：<br>
+![](https://github.com/SuXianPeng/CommonExperimentReport/blob/master/images/ConstraintLayout.png)<br>
+
