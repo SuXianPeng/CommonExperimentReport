@@ -44,7 +44,7 @@ public class SimpleAdapterClass extends AppCompatActivity {
         simpleListView=findViewById(R.id.mylist);
         simpleListView.setAdapter(simpleAdapter);//装配适配器到listview中
 
-
+        //Toast显示
         simpleListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long id) {
