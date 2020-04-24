@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">UiComponents</string>
+    <string name="simple_adapter">简单适配器实验</string>
+    <string name="demo">Demo</string>
+    <string name="alertdialog">自定义对话框实验</string>
+    <string name="username">UserName</string>
+    <string name="password">PassWord</string>
+    <string name="defaultinfo">这行可编辑文本框用于显示自定义对话框显示</string>
+    <string name="text">这行文本用于显示xml菜单显示</string>
+    <string name="xml_menu">XML定义菜单实验</string>
+    <string name="context_menu_btn">上下文菜单实验</string>
+
+    <string name="menu_Font">字体大小</string>
+    <string name="menu_Normal">普通菜单项</string>
+    <string name="menu_Color">字体颜色</string>
+    <string name="menu_font_small">小号(10)</string>
+    <string name="menu_font_middle">中号(16)</string>
+    <string name="menu_font_big">大号(20)</string>
+    <string name="menu_color_red">红色</string>
+    <string name="menu_color_black">黑色</string>
+</resources>
