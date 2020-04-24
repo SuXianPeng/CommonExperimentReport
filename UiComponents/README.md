@@ -5,7 +5,7 @@
 更多请自行查看仓库下本工程的布局文件代码。<br>
 
 * 下图为启动界面截图，其中有一个edittext是为了显示自定义对话框点击按钮时显示相应按钮上的文字作用，由于在本次编辑时github出现错误无法上传截图所以
-将在后续补全。<br>
+将在后续补全（图片已用push操作上传补全，但补全时刻还不能在github上直接浏览图片，所以暂未知晓效果）。<br>
 启动界面截图，在genymotion模拟下运行的结果图：<br>
 ![起始界面截图](https://github.com/SuXianPeng/CommonExperimentReport/blob/master/images/%E8%B5%B7%E5%A7%8B%E7%95%8C%E9%9D%A2%E6%88%AA%E5%9B%BE.JPG)<br>
 此界面布局文件为线性布局，代码为：<br>
