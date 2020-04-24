@@ -5,7 +5,7 @@
 更多请自行查看仓库下本工程的布局文件代码。<br>
 
 * 下图为完成线性布局后，在genymotion模拟下运行的结果图：<br>
-![](https://github.com/SuXianPeng/CommonExperimentReport/blob/master/images/LinearLayout.png)<br>
+![图1](https://github.com/SuXianPeng/CommonExperimentReport/blob/master/images/LinearLayout.png)<br>
 此布局中文本框显示边框并为白色使用到的是设置文本框背景实现的代码为：<br>
 
 ```
@@ -18,10 +18,10 @@
 android:background="@drawable/text"<br>
 ```
 * 下图为完成约束布局后，在genymotion模拟下运行的结果图：<br>
-![](https://github.com/SuXianPeng/CommonExperimentReport/blob/master/images/ConstraintLayout.png)<br>
+![图2](https://github.com/SuXianPeng/CommonExperimentReport/blob/master/images/ConstraintLayout.png)<br>
 
 * 下图为完成表格布局后，在genymotion模拟下运行的结果图：<br>
-![](https://github.com/SuXianPeng/CommonExperimentReport/blob/master/images/TableLayout.png)<br>
+![图3](https://github.com/SuXianPeng/CommonExperimentReport/blob/master/images/TableLayout.png)<br>
 此布局中灰色分割线实际上为一个view对象，实现的代码为：<br>
 ```
  <View
