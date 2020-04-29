@@ -269,16 +269,16 @@ new AlertDialog.Builder(this)
         <activity android:name=".ContextMenuClass"></activity>
 ```
      
-2.跳转后文本与图片无法显示，如下图1：
+2.跳转后文本与图片无法显示，如下图1：<br>
 ![下图1](https://github.com/SuXianPeng/CommonExperimentReport/blob/master/images/%E5%9B%BE%E7%89%871.jpg)<br>
 最后经过查看代码发现是自己用Map存储数据时写法错误，导致数据未存储成功导致的。
 
-3.初次写好自定义对话框时出错，显示如下界面，点击后报错如下图2：
+3.初次写好自定义对话框时出错，显示如下界面，点击后报错如下图2：<br>
 ![下图2](https://github.com/SuXianPeng/CommonExperimentReport/blob/master/images/%E5%9B%BE%E7%89%872.jpg)<br>
 
-发现是自己多此一举了，后来解决方法为：将自定义对话框类去掉如何在启动主界面直接编写完成即可。
+发现是自己多此一举了，后来解决方法为：将自定义对话框类去掉然后在启动主界面直接编写完成即可。
 
-4.遇到了菜单栏无法显示的问题，寻找了很久的解决方法，截图如下图3：
+4.遇到了菜单栏无法显示的问题，寻找了很久的解决方法，截图如下图3：<br>
 ![下图3](https://github.com/SuXianPeng/CommonExperimentReport/blob/master/images/%E5%9B%BE%E7%89%873.jpg)<br>
 最后发现的解决方法为，让活动继承 AppCompatActivity这个类就好了，当有进行页面跳转的时候就需要这样，否则跳转后的页面不显示菜单栏。
 * 以上即为对本次实验完成的结果以及一些地方进行一些总结，至于想知道其它更加详细的地方，请翻阅本工程下的相关文件。
